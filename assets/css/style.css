@@ -63,8 +63,12 @@ img{max-width:100%; height:auto; border:none}
 .viewall a:hover{text-decoration:underline}
 .entry_name{width:80%}
 .download-count{margin-top:5px}
-.home_sidebar{width:180px; padding:10px; background:#fff}
-.single_home_sidebar{margin-bottom:15px}
+.home_sidebar{width:200px; padding:1cm; background:#fff}
+.single_home_sidebar{
+  width: 280px;
+  height: 600;
+  object-fit: contain;
+  }
 .single_home_sidebar h2{border-bottom:3px solid #505050; font-size:20px; font-weight:bold}
 .single_home_sidebar h2 i{color:#FF1769}
 .footer_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0); border-top:5px solid #FF1769}
@@ -171,6 +175,32 @@ img{max-width:100%; height:auto; border:none}
 }
 
 .nome-setor {
+  font-size: 1.4em;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.imagem-sites {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.nome-sites {
+  font-size: 1.4em;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.imagem-utilitarios {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.nome-utilitarios{
   font-size: 1.4em;
   color: darkslategrey;
   font-weight: bold;
