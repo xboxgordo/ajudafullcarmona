@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 *{margin:0; padding:0}
-body{font-family:Arial; font-size:14px; line-height:20px; background:url("images/body_bg.png") repeat; color:#575757}
+body{font-family:Arial; font-size:14px; line-height:20px; background:url("images/black_bg.png") repeat; color:#575757}
 a{color:#575757; text-decoration:none; outline:0}
 a:hover, a:active, a:focus{text-decoration:none; outline:0; color:#575757}
 input[type=text], input[type=password], input[type=submit], textarea{border:1px solid #ddd; padding:5px; overflow:auto}
@@ -24,11 +24,12 @@ img{max-width:100%; height:auto; border:none}
 .floatright{float:right}
 .wrapper{width:1150px; display:block; margin:0 auto}
 .fix{overflow:hidden}
-.header_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0)}
-.header{min-height:100px}
-.logo{margin-left:10px}
-.logo h1{color:#ff1c1c; font-size:50px; font-weight:bold; line-height:40px; margin-top:25px; text-shadow:3px 2px 1px #c40000}
-.logo h1 span{color:#fff}
+.header_area
+{background:url("images/header.jpg"); padding:6px}
+.header{min-height:1cm}
+.logo{position:absolute; right:8.0cm}
+.logo h1{color:#ff1c1c; font-family:lucida fax; font-size:50px;  font-weight:bold; line-height:8px; margin-top:18px; text-shadow:3px 2px 1px #c40000}
+.logo h1 span{color:#fff; position:absolute; bottom:0.6cm ;right:2.5cm; opacity:0.8}
 .social{margin-left:210px}
 .social ul{margin:0; padding:0; list-style:none}
 .social ul li{float:left}
@@ -47,27 +48,30 @@ img{max-width:100%; height:auto; border:none}
 .search_submit{border-radius:5px; font-size:18px; height:40px; margin-left:10px; width:12%; border:none !important}
 .search_submit:hover{background:#222; color:#FF1769}
 .main_content_area{}
-.main_content{background:#fff}
+.main_content{background:#fff; opacity:0.8;}
 .content{width:950px; padding:10px; background:#fff}
-.hori_addbar{height:150px; margin:20px auto; width:728px}
-.single_content{border:1px solid #999; margin-bottom:15px; margin-left:7px; margin-right:7px; padding:10px; width:296px; -moz-box-shadow:3px 3px 5px #ddd; -webkit-box-shadow:3px 3px 5px #ddd; box-shadow:3px 3px 5px #ddd; min-height:500px}
-.single_content h2{font-size:20px; font-weight:bold; border-bottom:2px solid #FFA439; padding-bottom:10px}
-.single_content h2 i{color:#FFA439}
-.single_content h2 .week{font-size:10px; font-weight:normal}
-.single_content ul{margin:0; padding:0; list-style:none}
+.hori_addbar{height:100px; margin:10px auto; width:450px}
+.single_content{border:1px solid #999; margin-bottom:15px; margin-left:7px; margin-right:7px; padding:9px; width:296px; -moz-box-shadow:3px 3px 5px #ddd; -webkit-box-shadow:3px 3px 5px #ddd; box-shadow:6px 5px 3px #ddd; min-height:500px}.single_content h2{font-size:20px; font-weight:bold; border-bottom:2px solid #cc3300; padding-bottom:10px}
+.single_content h2 i{c}
+.single_content h2 .week{font-size:9px; font-weight:normal}
+.single_content ul{margin:5; padding:0; list-style:none}
 .single_content ul li{}
-.single_content ul li a{border-bottom:1px dotted #DDD; display:block; font-size:12px; padding:7px 0}
+.single_content ul li a{border-bottom:1px dotted #cc3300; display:block; font-size:11px; padding:8px 0}
 .single_content ul li a:hover{color:#FFA439; text-decoration:underline}
 .viewall{text-align:center; margin-top:15px}
 .viewall a{color:#FFA439; font-weight:bold}
 .viewall a:hover{text-decoration:underline}
-.entry_name{width:80%}
+.entry_name{width:90%}
 .download-count{margin-top:5px}
-.home_sidebar{width:180px; padding:10px; background:#fff}
-.single_home_sidebar{margin-bottom:15px}
-.single_home_sidebar h2{border-bottom:3px solid #505050; font-size:20px; font-weight:bold}
-.single_home_sidebar h2 i{color:#FF1769}
-.footer_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0); border-top:5px solid #FF1769}
+.home_sidebar{width:5.2cm; padding:1cm; position: relative; top:1.8cm; right:1cm}
+.single_home_sidebar{
+  width: 292px;
+  height: 600;
+  object-fit: contain;
+  }
+.single_home_sidebar h2{border-bottom:2px solid #cc3300; font-size:20px; font-weight:bold; }
+.single_home_sidebar h2 i{color:#cc3300}
+.footer_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0); border-top:3px solid #af010e}
 .footer{padding:10px}
 .footer_left{}
 .copyright{text-align:center; margin-top:15px}
@@ -158,7 +162,7 @@ img{max-width:100%; height:auto; border:none}
 .contact_form p{margin-bottom:15px}
 .name{height:40px; width:40%; outline:0}
 .email{height:40px; width:40%; outline:0}
-.massage{height:200px; width:60%; outline:0; overflow:auto}
+.massage{height:20px; width:60%; outline:0; overflow:auto}
 .submit_btn{background:none repeat scroll 0 0 #FF1769; color:#FFF; font-size:18px; font-weight:bold; height:40px; width:140px; border:none !important}
 .name:focus, .email:focus, .massage:focus{box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; -moz-box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; -webkit-box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; transition:all 0.5s ease 0s; -moz-transition:all 0.5s ease 0s; -webkit-transition:all 0.5s ease 0s; -o-transition:all 0.5s ease 0s; -ms-transition:all 0.5s ease 0s}
 .submit_btn:hover{background:#fff; border:2px solid #FF1769 !important; color:#FF1769}
@@ -175,3 +179,42 @@ img{max-width:100%; height:auto; border:none}
   color: darkslategrey;
   font-weight: bold;
 }
+
+.imagem-sites {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.nome-sites {
+  font-size: 1.4em;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.imagem-utilitarios {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.nome-utilitarios{
+  font-size: 1.4em;
+  color: darkslategrey;
+  font-weight: bold;
+}
+.icones-atalhos{
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.icone-topo{
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 8px;
+}
+	
