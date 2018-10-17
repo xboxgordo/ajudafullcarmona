@@ -1,0 +1,156 @@
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,700">
+        <link rel="stylesheet" type="text/css" href="https://d1eq8vvyuam4eq.cloudfront.net/dist/app-57dd09b208030cd15399.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+﻿<!DOCTYPE html>
+<!--html lang="en"-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,700">
+	<link rel="stylesheet" type="text/css" href="https://d1eq8vvyuam4eq.cloudfront.net/dist/app-57dd09b208030cd15399.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<title>Intranet Xis Design</title>
+</head>
+
+<body id="status">
+  <div id="update">
+  <div class="container">
+  </header>
+	<!-- Inicio Setores -->
+		<div class="row header">
+  		<h3>Xis Design</h3>
+  	<p>Setores</p>
+</div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/administracao/" target="_blank">ADM</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/almoxarifado/" target="_blank">Almoxarifado</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/comercial/" target="_blank">Comercial</a>
+            </li>
+                   <li class="list-group-item">
+              <a href="bpm/index.html" target="_blank">B.P.M.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/criacao/" target="_blank">Criação</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/fabrica-xis-design/" target="_blank">Fábrica</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/impressao/" target="_blank">Impressão</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/tic-xis-design/" target="_blank">TI</a>
+            </li>
+                        <li class="list-group-item">
+			<img width="25px" height="25px" src="Nova Intra/call.svg">
+              <a href="https://sites.google.com/a/xisdesign.com/telefones/" target="_blank">Telefones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/manutencao/" target="_blank">Manutenção</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/producao/" target="_blank">Produção</a>
+            </li>
+                        <li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/ssma/" target="_blank">Saúde / Segurança</a>
+              </li>
+              	<li class="list-group-item">
+              <a href="https://sites.google.com/a/xisdesign.com/qualidade/" target="_blank">Qualidade</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="update">
+  <div class="container">
+<!-- Fim Setores -->
+</header>
+<div class="row header">
+  <h3>Xis Design</h3>
+  <p>Sites</p>
+</div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+                        <li  class="list-group-item">
+                        	<img width="25px" height="25px" src="Nova Intra/ajors.jpg">
+              <a href="http://www.ajors.com/ajors/seguranca/" target="_blank">Ajors</a>
+                        </li>
+                        <li class="list-group-item">
+                        	<img width="25px" height="25px" src="Nova Intra/googlemaps.ico">
+              <a href="https://www.google.com/maps/" target="_blank">Google Mapas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+          	                        <li class="list-group-item">
+          	                        	<img width="25px" height="25px" src="Nova Intra/buy.svg">
+              <a href="http://www.ajors.com/compras" target="_blank">Compras</a>
+            </li>
+                        <li class="list-group-item">
+                        <img align="center" width="25px" height="25px" src="Nova Intra/google_calendar.ico">
+              <a href="https://www.google.com/calendar/render?pli=1#main_7" target="_blank">Agenda Google</a>
+            </li>
+                        <li class="list-group-item">
+                        <img width="25px" height="25px" src="Nova Intra/favicon.ico">
+                        <a href="http://www.xisdesign.com.br" target="_blank">Xis Design</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default modules">
+          <!-- List group -->
+          <ul class="list-group">
+                        <li class="list-group-item">
+                        <img align="center" width="25px" height="25px" src="Nova Intra/google_drive_gloss_button.ico">
+              <a href="http://drive.google.com" target="_blank">Google Drive</a>
+            </li>
+                        <li class="list-group-item">
+                        <img align="center" width="25px" height="25px" src="Nova Intra/weather_128.ico">
+                        <a  href="http://www.climatempo.com.br/previsao-do-tempo/cidade/540/santos-sp" target="_blank">Clima Tempo</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
